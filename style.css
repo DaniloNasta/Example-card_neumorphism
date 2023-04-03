@@ -1,0 +1,51 @@
+body{
+    background: #D1D8EC;
+    overflow-x: hidden;
+}
+
+
+/* neumorphism-flat-card */
+.neumorphism-flat{
+    border-radius: 50px;
+    background: #D1D8EC;
+    box-shadow: 20px 20px 60px #b2b8c9, -20px -20px 60px #f0f8ff;
+}
+
+.neumorphism-flat-img{
+    border-radius: 25px;
+    background: #D1D8EC;
+    box-shadow: 5px 5px 10px #b2b8c9, -5px -5px 10px #f0f8ff;
+}
+
+.btn-flat-custom{
+    background: linear-gradient(145deg, #6c7cf8, #a440f8);
+    color: white;
+    min-width: 64px;
+    padding: 10px 16px 10px 16px;
+    box-shadow: 5px 5px 10px #a440f8, -5px -5px 10px #f0f8ff;
+    border-radius: 15px;
+}
+/* neumorphism-flat-card */
+
+
+/* neumorphism-pressed-card */
+.neumorphism-pressed{
+    border-radius: 50px;
+    background: #D1D8EC;
+    box-shadow: inset 5px 5px 10px #b2b8c9, inset -5px -5px 10px #f0f8ff;
+}
+
+.neumorphism-pressed-img{
+    border-radius: 25px;
+    background: #D1D8EC;
+    box-shadow: inset 2px 2px 5px #b2b8c9, inset -2px -2px 5px #f0f8ff;
+}
+
+.btn-pressed-custom{
+    background: #D1D8EC;
+    min-width: 64px;
+    padding: 10px 16px 10px 16px;
+    box-shadow: 5px 5px 10px #b2b8c9, -5px -5px 10px #f0f8ff;
+    border-radius: 15px;
+}
+/* neumorphism-pressed-card */
